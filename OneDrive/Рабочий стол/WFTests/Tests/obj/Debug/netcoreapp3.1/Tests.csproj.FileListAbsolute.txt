@@ -1,0 +1,4 @@
+D:\Kwork\Tests\Tests\obj\Debug\netcoreapp3.1\Tests.csprojAssemblyReference.cache
+D:\Kwork\Tests\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
+D:\Kwork\Tests\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
+D:\Kwork\Tests\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache
