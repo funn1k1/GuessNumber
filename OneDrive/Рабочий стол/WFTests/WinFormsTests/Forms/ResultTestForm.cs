@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsTests.Models.ProgressTestModels;
+using WinFormsTests.Models.TestModels;
 
 namespace WinFormsTests.Forms
 {
@@ -39,10 +40,21 @@ namespace WinFormsTests.Forms
 					$"{subTest.GetResult().all}"
 				);
 
-				for (var i = 0; i < subTest.PassedQuestions.Count; i++)
+				foreach (var question in subTest.PassedQuestions)
 				{
-					var question = subTest.PassedQuestions[i];
-					result.AppendLine($"\tВопрос {i + 1}: {(question.IsRightAnswer() ? "правильно" : "неправильно")}");
+					if (question.Question is OpenQuestion oq) 
+						result.AppendLine($"\tОткрытый вопрос {question.Question.Text}: " +
+						                  $"{(question.IsRightAnswer() ? "правильно" : "неправильно")}, " +
+						                  $"один из правильных ответов - {oq.RightAnswers.First()}");
+					else
+					{
+						var testQuestion = question.Question as TestQuestion;
+
+						result.AppendLine($"\tТестовый вопрос {question.Question.Text}: " +
+						                  $"{(question.IsRightAnswer() ? "правильно" : "неправильно")}, " +
+						                  $"правильный ответ - " +
+						                  $"{string.Join(", ", testQuestion.RightAnswers.Select(t => testQuestion.Answers[t]))}");
+					}
 				}
 			}
 

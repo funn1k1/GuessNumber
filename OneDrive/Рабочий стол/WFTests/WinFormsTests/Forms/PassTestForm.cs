@@ -57,7 +57,7 @@ namespace WinFormsTests.Forms
 						}
 
 						BeginInvoke(new Action(() => // обновляем надпись со временем, это
-                                   // нужно делать через BeginInvoke, так как через
+                                   // нужно делать через BeginInvoke так как через
                                    // другой поток в WF запрещено изменять UI 
 						{
 							var time = DateTime.Now - startTime; // измеряем пройденное время

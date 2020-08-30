@@ -12,9 +12,11 @@ namespace WinFormsTests.Forms
 			InitializeComponent();
 
 			_answers = new List<string>();
+			_openAnswers = new List<string>();
 		}
 
 		private List<string> _answers;
+		private List<string> _openAnswers;
 
 		public Question Question { get; private set; }
 
@@ -27,7 +29,13 @@ namespace WinFormsTests.Forms
 		{
 
 			if (OpenCheck.Checked)
+			{
 				Question = new OpenQuestion(OpenQuestionText.Text);
+				var openQuestion = Question as OpenQuestion;
+
+				foreach (var openAnswer in _openAnswers) 
+					openQuestion.AddAnswer(openAnswer);
+			}
 			else
 			{
 				var rightAnswers = new List<int>();
@@ -55,6 +63,15 @@ namespace WinFormsTests.Forms
 			_answers.Add(text);
 
 			AnswersList.Items.Add(text, false);
+		}
+
+		private void AddOpenAnswer_Click(object sender, EventArgs e)
+		{
+			var answer = OpenAnswer.Text;
+
+			_openAnswers.Add(answer);
+
+			ListOpenAnswers.Items.Add(answer);
 		}
 	}
 }

@@ -57,16 +57,19 @@ namespace WinFormsTests.Forms
 
 			var index = TestTree.Nodes.IndexOf(node);
 
-			var f = new CreatingQuestionForm();
-			f.ShowDialog();
-			var question = f.Question;
+			while (true)
+			{
+				var f = new CreatingQuestionForm();
+				f.ShowDialog();
+				var question = f.Question;
 
-			if (question == null)
-				return;
+				if (question == null)
+					return;
 
-			_test.SubTests[index].AddQuestion(question);
+				_test.SubTests[index].AddQuestion(question);
 
-			PrintTree();
+				PrintTree();
+			}
 		}
 
 		private void SaveTest_Click(object sender, EventArgs e)

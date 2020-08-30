@@ -28,44 +28,44 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.label1 = new System.Windows.Forms.Label();
-            this.Progress = new System.Windows.Forms.ProgressBar();
-            this.Back = new System.ComponentModel.BackgroundWorker();
-            this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Gabriola", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(62, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 118);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Прохождение тестов\r\n           By funn1k\r\n";
-            // 
-            // Progress
-            // 
-            this.Progress.Location = new System.Drawing.Point(12, 143);
-            this.Progress.Name = "Progress";
-            this.Progress.Size = new System.Drawing.Size(378, 23);
-            this.Progress.TabIndex = 1;
-            // 
-            // Back
-            // 
-            this.Back.DoWork += new System.ComponentModel.DoWorkEventHandler(this.Back_DoWork);
-            // 
-            // LoadForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(402, 208);
-            this.Controls.Add(this.Progress);
-            this.Controls.Add(this.label1);
-            this.Name = "LoadForm";
-            this.Text = "Загрузка программы";
-            this.Load += new System.EventHandler(this.LoadForm_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+			this.label1 = new System.Windows.Forms.Label();
+			this.Progress = new System.Windows.Forms.ProgressBar();
+			this.Back = new System.ComponentModel.BackgroundWorker();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.label1.Location = new System.Drawing.Point(46, 32);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(276, 31);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "Прохождение тестов";
+			// 
+			// Progress
+			// 
+			this.Progress.Location = new System.Drawing.Point(12, 105);
+			this.Progress.Name = "Progress";
+			this.Progress.Size = new System.Drawing.Size(378, 23);
+			this.Progress.TabIndex = 1;
+			// 
+			// Back
+			// 
+			this.Back.DoWork += new System.ComponentModel.DoWorkEventHandler(this.Back_DoWork);
+			// 
+			// LoadForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(402, 180);
+			this.Controls.Add(this.Progress);
+			this.Controls.Add(this.label1);
+			this.Name = "LoadForm";
+			this.Text = "Загрузка программы";
+			this.Load += new System.EventHandler(this.LoadForm_Load);
+			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 

@@ -39,11 +39,14 @@
 			this.AnswerText = new System.Windows.Forms.TextBox();
 			this.AddAnswer = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
+			this.ListOpenAnswers = new System.Windows.Forms.ListBox();
+			this.AddOpenAnswer = new System.Windows.Forms.Button();
+			this.OpenAnswer = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// Save
 			// 
-			this.Save.Location = new System.Drawing.Point(15, 276);
+			this.Save.Location = new System.Drawing.Point(15, 400);
 			this.Save.Name = "Save";
 			this.Save.Size = new System.Drawing.Size(776, 23);
 			this.Save.TabIndex = 0;
@@ -66,7 +69,7 @@
 			// TestCheck
 			// 
 			this.TestCheck.AutoSize = true;
-			this.TestCheck.Location = new System.Drawing.Point(15, 61);
+			this.TestCheck.Location = new System.Drawing.Point(15, 185);
 			this.TestCheck.Name = "TestCheck";
 			this.TestCheck.Size = new System.Drawing.Size(114, 17);
 			this.TestCheck.TabIndex = 2;
@@ -92,7 +95,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(15, 87);
+			this.label2.Location = new System.Drawing.Point(15, 211);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(47, 13);
 			this.label2.TabIndex = 6;
@@ -100,7 +103,7 @@
 			// 
 			// TestQuestionText
 			// 
-			this.TestQuestionText.Location = new System.Drawing.Point(68, 84);
+			this.TestQuestionText.Location = new System.Drawing.Point(68, 208);
 			this.TestQuestionText.Name = "TestQuestionText";
 			this.TestQuestionText.Size = new System.Drawing.Size(509, 20);
 			this.TestQuestionText.TabIndex = 5;
@@ -108,21 +111,21 @@
 			// AnswersList
 			// 
 			this.AnswersList.FormattingEnabled = true;
-			this.AnswersList.Location = new System.Drawing.Point(18, 110);
+			this.AnswersList.Location = new System.Drawing.Point(18, 234);
 			this.AnswersList.Name = "AnswersList";
 			this.AnswersList.Size = new System.Drawing.Size(249, 154);
 			this.AnswersList.TabIndex = 7;
 			// 
 			// AnswerText
 			// 
-			this.AnswerText.Location = new System.Drawing.Point(294, 138);
+			this.AnswerText.Location = new System.Drawing.Point(294, 262);
 			this.AnswerText.Name = "AnswerText";
 			this.AnswerText.Size = new System.Drawing.Size(247, 20);
 			this.AnswerText.TabIndex = 8;
 			// 
 			// AddAnswer
 			// 
-			this.AddAnswer.Location = new System.Drawing.Point(294, 164);
+			this.AddAnswer.Location = new System.Drawing.Point(294, 288);
 			this.AddAnswer.Name = "AddAnswer";
 			this.AddAnswer.Size = new System.Drawing.Size(247, 23);
 			this.AddAnswer.TabIndex = 9;
@@ -133,17 +136,45 @@
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(273, 210);
+			this.label3.Location = new System.Drawing.Point(273, 334);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(340, 13);
 			this.label3.TabIndex = 10;
 			this.label3.Text = "Галочкой пометьте те вопросы, которые являются правильными";
 			// 
+			// ListOpenAnswers
+			// 
+			this.ListOpenAnswers.FormattingEnabled = true;
+			this.ListOpenAnswers.Location = new System.Drawing.Point(18, 61);
+			this.ListOpenAnswers.Name = "ListOpenAnswers";
+			this.ListOpenAnswers.Size = new System.Drawing.Size(249, 121);
+			this.ListOpenAnswers.TabIndex = 11;
+			// 
+			// AddOpenAnswer
+			// 
+			this.AddOpenAnswer.Location = new System.Drawing.Point(276, 87);
+			this.AddOpenAnswer.Name = "AddOpenAnswer";
+			this.AddOpenAnswer.Size = new System.Drawing.Size(247, 23);
+			this.AddOpenAnswer.TabIndex = 13;
+			this.AddOpenAnswer.Text = "Добавить ответ";
+			this.AddOpenAnswer.UseVisualStyleBackColor = true;
+			this.AddOpenAnswer.Click += new System.EventHandler(this.AddOpenAnswer_Click);
+			// 
+			// OpenAnswer
+			// 
+			this.OpenAnswer.Location = new System.Drawing.Point(276, 61);
+			this.OpenAnswer.Name = "OpenAnswer";
+			this.OpenAnswer.Size = new System.Drawing.Size(247, 20);
+			this.OpenAnswer.TabIndex = 12;
+			// 
 			// CreatingQuestionForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 309);
+			this.ClientSize = new System.Drawing.Size(800, 439);
+			this.Controls.Add(this.AddOpenAnswer);
+			this.Controls.Add(this.OpenAnswer);
+			this.Controls.Add(this.ListOpenAnswers);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.AddAnswer);
 			this.Controls.Add(this.AnswerText);
@@ -176,5 +207,8 @@
 		private System.Windows.Forms.TextBox AnswerText;
 		private System.Windows.Forms.Button AddAnswer;
 		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.ListBox ListOpenAnswers;
+		private System.Windows.Forms.Button AddOpenAnswer;
+		private System.Windows.Forms.TextBox OpenAnswer;
 	}
 }
