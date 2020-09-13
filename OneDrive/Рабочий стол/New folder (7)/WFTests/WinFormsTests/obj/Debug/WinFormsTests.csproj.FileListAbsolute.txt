@@ -19,3 +19,24 @@ D:\Kwork\Tests\WinFormsTests\obj\Debug\WinFormsTests.Forms.PassQuestionForm.reso
 D:\Kwork\Tests\WinFormsTests\obj\Debug\WinFormsTests.Forms.ResultTestForm.resources
 D:\Kwork\Tests\WinFormsTests\obj\Debug\WinFormsTests.Forms.EditTestsForm.resources
 D:\Kwork\Tests\WinFormsTests\obj\Debug\WinFormsTests.Forms.LoadForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\bin\Debug\WinFormsTests.exe.config
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\bin\Debug\WinFormsTests.exe
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\bin\Debug\WinFormsTests.pdb
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\bin\Debug\System.ValueTuple.dll
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\bin\Debug\System.ValueTuple.xml
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.csprojAssemblyReference.cache
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.AddTestForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.CreatingQuestionForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.EditTestsForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.LoadForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.MainForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.PassTestQuestionForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.PassQuestionForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.PassTestForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Forms.ResultTestForm.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.Properties.Resources.resources
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.csproj.GenerateResource.cache
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.csproj.CoreCompileInputs.cache
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.csproj.CopyComplete
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.exe
+C:\Users\yukov\OneDrive\Рабочий стол\New folder (7)\WFTests\WinFormsTests\obj\Debug\WinFormsTests.pdb
